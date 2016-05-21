@@ -1,251 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>欢迎来到我的主页</title>
-<meta name="description" content="">
-<meta name="author" content="">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>欢迎来到我的主页</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
 
 <!-- Favicons
-    ================================================== -->
-<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+  ================================================== -->
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
 
-<!-- Bootstrap -->
-<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
 
 <!-- Slider
-    ================================================== -->
-<link href="css/owl.carousel.css" rel="stylesheet" media="screen">
-<link href="css/owl.theme.css" rel="stylesheet" media="screen">
+  ================================================== -->
+  <link href="css/owl.carousel.css" rel="stylesheet" media="screen">
+  <link href="css/owl.theme.css" rel="stylesheet" media="screen">
 
 <!-- Stylesheet
-    ================================================== -->
-<link rel="stylesheet" type="text/css"  href="css/style.css">
-<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
-<link href='http://fonts.useso.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
-<link href='http://fonts.useso.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
-<script type="text/javascript" src="js/modernizr.custom.js"></script>
+  ================================================== -->
+  <link rel="stylesheet" type="text/css"  href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+  <link href='http://fonts.useso.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.useso.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="js/modernizr.custom.js"></script>
 
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+      <![endif]-->
+  </head>
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+  <!-- Header -->
+  <header class="intro">
+    <div class="intro-body">
+        <div class="container">
+            <div class="row">
+              <div class="intro-text">
+                <h1>你好，我叫谭思。</h1>
+                <p>职位：前端工程师</p>
+                <a href="#about" class="btn btn-default btn-lg page-scroll">关于我</a> <a href="#portfolio" class="btn btn-default btn-lg page-scroll">我的作品</a>
+              </div>
+            </div>
+        </div>
+    </div>
+  </header>
+  <!-- Navigation -->
+  <div id="nav">
+        <nav class="navbar navbar-custom">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
+              <a class="navbar-brand page-scroll" href="#page-top">谭思</a>
+            </div>
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+              <ul class="nav navbar-nav">
+                <li class="hidden"> <a href="#page-top"></a> </li>
+                <li> <a class="page-scroll" href="#about">关于我</a> </li>
+                <li> <a class="page-scroll" href="#services">专业介绍</a> </li>
+                <li> <a class="page-scroll" href="#portfolio">作品集</a> </li>
+                <li> <a class="page-scroll" href="#skills">我的技能</a> </li>
+                <li> <a class="page-scroll" href="#resume">web项目</a> </li>
+                <li> <a class="page-scroll" href="#contact">联系方式</a> </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+  </div>
 
-<!-- Header -->
-<header class="intro">
-  <div class="intro-body">
+  <!-- About Section -->
+  <div id="about">
     <div class="container">
+      <div class="section-title text-center center">
+        <h2>About me</h2>
+        <hr>
+      </div>
       <div class="row">
-        <div class="intro-text">
-          <h1>Hello, I'm TANSI</h1>
-          <p>Front end Engineer</p>
-          <a href="#about" class="btn btn-default btn-lg page-scroll">About Me</a> <a href="#portfolio" class="btn btn-default btn-lg page-scroll">My collection of works</a></div>
+        <div class="col-md-12 text-center"><img src="img/1.jpeg" class="img-responsive"></div>
+        <div class="col-md-8 col-md-offset-2">
+          <div class="about-text">
+            <p>热爱生活，每天以饱满的热情对待工作，生活中的小太阳</p>
+            <p>遇到困难绝不退缩，坚持我的坚持，时间观念强，认真做到答应别人的每一件事。</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</header>
-<!-- Navigation -->
-<div id="nav">
-  <nav class="navbar navbar-custom">
+
+  <!-- Services Section -->
+  <div id="services" class="text-center">
     <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
-        <a class="navbar-brand page-scroll" href="#page-top">谭思</a> </div>
-      
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-        <ul class="nav navbar-nav">
-          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-          <li class="hidden"> <a href="#page-top"></a> </li>
-          <li> <a class="page-scroll" href="#about">关于我</a> </li>
-          <li> <a class="page-scroll" href="#services">专业介绍</a> </li>
-          <li> <a class="page-scroll" href="#portfolio">作品集</a> </li>
-          <li> <a class="page-scroll" href="#skills">我的技能</a> </li>
-          <li> <a class="page-scroll" href="#resume">web项目</a> </li>
-          <li> <a class="page-scroll" href="#contact">联系方式</a> </li>
-        </ul>
+      <div class="section-title center">
+        <h2>专业介绍</h2>
+        <hr>
       </div>
-    </div>
-  </nav>
-</div>
-<!-- About Section -->
-<div id="about">
-  <div class="container">
-    <div class="section-title text-center center">
-      <h2>About me</h2>
-      <hr>
-    </div>
-    <div class="row">
-      <div class="col-md-12 text-center"><img src="img/1.jpeg" class="img-responsive"></div>
-      <div class="col-md-8 col-md-offset-2">
-        <div class="about-text">
-          <p>热爱生活，每天以饱满的热情对待工作，生活中的小太阳</p>
-          <p>遇到困难绝不退缩，坚持我的坚持，时间观念强，认真做到答应别人的每一件事。</p>
+      <div class="space"></div>
+      <div class="row">
+        <div class="col-md-3 col-sm-6 service"> <i class="fa fa-laptop"></i>
+          <h4>Web Design</h4>
+          <p>能够熟练操作Photoshop AI等图像平面处理软件,具有处理图片修改的能力</p>
+        </div>
+        <div class="col-md-3 col-sm-6 service"> <i class="fa fa-code"></i>
+          <h4>skill</h4>
+          <p>HTMl5、CSS3、HTML、CSS、JavaScript、jQuery、AJAX、bootstrap、anjularjs等技术。能够实现响应式布局，利用phpcms完成整站的搭建</p>
+        </div>
+        <div class="col-md-3 col-sm-6 service"> <i class="fa fa-rocket"></i>
+          <h4>Marketing</h4>
+          <p>每个人都珍贵，每件事都该认真。</p>
+        </div>
+        <div class="col-md-3 col-sm-6 service"> <i class="fa fa-bullhorn"></i>
+          <h4>Development</h4>
+          <p>乐于研究技术问题,愿意接受新的技术挑战.有很强的责任心和团队意识.</p>
         </div>
       </div>
     </div>
   </div>
-</div>
-<!-- Services Section -->
-<div id="services" class="text-center">
-  <div class="container">
-    <div class="section-title center">
-      <h2>专业介绍</h2>
-      <hr>
-    </div>
-    <div class="space"></div>
-    <div class="row">
-      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-laptop"></i>
-        <h4>Web Design</h4>
-        <p>能够熟练操作Photoshop AI等图像平面处理软件,具有处理图片修改的能力</p>
+
+  <!-- Portfolio Section -->
+  <div id="portfolio">
+    <div class="container">
+      <div class="section-title text-center center">
+        <h2>我的作品</h2>
+        <hr>
+        <div class="clearfix"></div>
       </div>
-      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-code"></i>
-        <h4>skill</h4>
-        <p>HTMl5、CSS3、HTML、CSS、JavaScript、jQuery、AJAX、bootstrap、anjularjs等技术。能够实现响应式布局，利用phpcms完成整站的搭建</p>
+      <div class="categories">
+          <div class="clearfix"></div>
       </div>
-      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-rocket"></i>
-        <h4>Marketing</h4>
-        <p>每个人都珍贵，每件事都该认真。</p>
-      </div>
-      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-bullhorn"></i>
-        <h4>Development</h4>
-        <p>乐于研究技术问题,愿意接受新的技术挑战.有很强的责任心和团队意识.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >网页模板</a></div>
-<!-- Portfolio Section -->
-<div id="portfolio">
-  <div class="container">
-    <div class="section-title text-center center">
-      <h2>我的作品</h2>
-      <hr>
-      <div class="clearfix"></div>
-    </div>
-    <div class="categories">
-     <!--  <ul class="cat">
-        <li>
-          <ol class="type">
-            <li><a href="#" data-filter="*" class="active">All</a></li>
-            <li><a href="#" data-filter=".web">Web Design</a></li>
-            <li><a href="#" data-filter=".app">App Development</a></li>
-            <li><a href="#" data-filter=".branding">Branding</a></li>
-          </ol>
-        </li>
-      </ul> -->
-      <div class="clearfix"></div>
-    </div>
-    <div class="row">
-      <div class="portfolio-items">
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
-          <div class="portfolio-item">
-            <div class="hover-bg"> 
-              <a href="img/apple.png" rel="prettyPhoto">
-              <div class="hover-text">
-                <a href="http://ts1027.github.io/Apple/" target="_blank"><h4>苹果官网</h4></a>
-                <small>Web Design</small>
-                <div class="clearfix"></div>
-                <i class="fa fa-search"></i> </div>
-              <img src="img/apple.png" class="img-responsive"> </a> </div>
+      <!-- 我的作品集 -->
+      <div class="row">
+        <div class="portfolio-items">
+          <!-- 第一个 -->
+          <div class="col-sm-6 col-md-3 col-lg-3 web">
+            <div class="portfolio-item">
+              <div class="hover-bg"> 
+                <a href="img/apple.png" rel="prettyPhoto">
+                  <div class="hover-text">
+                    <a href="http://ts1027.github.io/Apple/" target="_blank"><h4>苹果官网</h4></a>
+                    <small>Web Design</small>
+                    <div class="clearfix"></div>
+                    <i class="fa fa-search"></i> 
+                  </div>
+                  <img src="img/apple.png" class="img-responsive">
+                </a> 
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 app">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/bd.png" title="Project description" rel="prettyPhoto">
-              <div class="hover-text">
-                <a href="http://ts1027.github.io/BDyq1/" target="_blank"><h4>百度舆情</h4></a>
-                <small>Web Design</small>
-                <div class="clearfix"></div>
-                <i class="fa fa-search"></i> </div>
-              <img src="img/bd.png" class="img-responsive" alt="Project Title" style="height:160px"> 
-              <img src="img/bd2.png" class="img-responsive" alt="Project Title" style="height:160px"> </a> </div>
+          <!-- 第2个 -->
+          <div class="col-sm-6 col-md-3 col-lg-3 app">
+            <div class="portfolio-item">
+              <div class="hover-bg"> <a href="img/bd.png" title="Project description" rel="prettyPhoto">
+                <div class="hover-text">
+                  <a href="http://ts1027.github.io/BDyq1/" target="_blank"><h4>百度舆情</h4></a>
+                  <small>Web Design</small>
+                  <div class="clearfix"></div>
+                  <i class="fa fa-search"></i> 
+                </div>
+                  <img src="img/bd.png" class="img-responsive" alt="Project Title" style="height:160px"> 
+                  <img src="img/bd2.png" class="img-responsive" alt="Project Title" style="height:160px"> 
+                </a> 
+                </div>
+            </div>
           </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/wl.png" title="Project description" rel="prettyPhoto">
-              <div class="hover-text">
-                <a href="http://ts1027.github.io/BDwl/" target="_blank"><h4>百度未来商店</h4></a>
-                <small>Web Design</small>
-                <div class="clearfix"></div>
-                <i class="fa fa-search"></i> </div>
-              <img src="img/wl.png" class="img-responsive" alt="Project Title" style="height:160px"> 
-              <img src="img/wl1.png" class="img-responsive" alt="Project Title" style="height:160px"></a> </div>
+          <!-- 第3个 -->
+          <div class="col-sm-6 col-md-3 col-lg-3 web">
+            <div class="portfolio-item">
+              <div class="hover-bg"> <a href="img/wl.png" title="Project description" rel="prettyPhoto">
+                <div class="hover-text">
+                  <a href="http://ts1027.github.io/BDwl/" target="_blank"><h4>百度未来商店</h4></a>
+                  <small>Web Design</small>
+                  <div class="clearfix"></div>
+                  <i class="fa fa-search"></i> 
+                </div>
+                <img src="img/wl.png" class="img-responsive" alt="Project Title" style="height:160px"> 
+                <img src="img/wl1.png" class="img-responsive" alt="Project Title" style="height:160px"></a>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/tm.png" title="Project description" rel="prettyPhoto">
-              <div class="hover-text">
-                <a href="http://ts1027.github.io/tianmao/" target="_blank"><h4>天猫官网</h4></a>
-                <small>Web Design</small>
-                <div class="clearfix"></div>
-                <i class="fa fa-search"></i> </div>
-              <img src="img/tm.png" class="img-responsive" alt="Project Title" style="height:160px"><img src="img/tm2.png" class="img-responsive" alt="Project Title" style="height:160px"> </a> </div>
+          <!-- 第4个 -->
+          <div class="col-sm-6 col-md-3 col-lg-3 web">
+            <div class="portfolio-item">
+              <div class="hover-bg">
+               <a href="img/tm.png" title="Project description" rel="prettyPhoto">
+                <div class="hover-text">
+                  <a href="http://ts1027.github.io/tianmao/" target="_blank"><h4>天猫官网</h4></a>
+                  <small>Web Design</small>
+                  <div class="clearfix"></div>
+                  <i class="fa fa-search"></i> 
+                </div>
+                <img src="img/tm.png" class="img-responsive" alt="Project Title" style="height:160px"><img src="img/tm2.png" class="img-responsive" alt="Project Title" style="height:160px">
+               </a> 
+             </div>
+            </div>
           </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 app">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/sn.png" title="Project description" rel="prettyPhoto">
-              <div class="hover-text">
-                <a href="http://ts1027.github.io/JD/" target="_blank"><h4>京东</h4></a>
-                <small>Web Design</small>
-                <div class="clearfix"></div>
-                <i class="fa fa-search"></i> </div>
-              <img src="img/sn.png" class="img-responsive" alt="Project Title" style="height:160px">
-                <img src="img/sn2.png" class="img-responsive" alt="Project Title" style="height:160px"> </a> </div>
+          <!-- 第5个 -->
+          <div class="col-sm-6 col-md-3 col-lg-3 app">
+            <div class="portfolio-item">
+              <div class="hover-bg">
+               <a href="img/sn.png" title="Project description" rel="prettyPhoto">
+                <div class="hover-text">
+                  <a href="http://ts1027.github.io/JD/" target="_blank"><h4>京东</h4></a>
+                  <small>Web Design</small>
+                  <div class="clearfix"></div>
+                  <i class="fa fa-search"></i>
+                   </div>
+                  <img src="img/sn.png" class="img-responsive" alt="Project Title" style="height:160px">
+                  <img src="img/sn2.png" class="img-responsive" alt="Project Title" style="height:160px"> 
+                </a> 
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 branding">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/jd1.png" title="Project description" rel="prettyPhoto">
-              <div class="hover-text">
-                <a href="http://ts1027.github.io/sun/" target="_blank"><h4>苏宁</h4></a>
-                <small>Web Design</small>
-                <div class="clearfix"></div>
-                <i class="fa fa-search"></i> </div>
-              <img src="img/jd.png" class="img-responsive" alt="Project Title" style="height:160px">
-              <img src="img/jd1.png" class="img-responsive" alt="Project Title" style="height:160px"> </a> </div>
+          <!-- 第6个 -->
+          <div class="col-sm-6 col-md-3 col-lg-3 branding">
+            <div class="portfolio-item">
+              <div class="hover-bg"> 
+                <a href="img/jd1.png" title="Project description" rel="prettyPhoto">
+                <div class="hover-text">
+                  <a href="http://ts1027.github.io/sun/" target="_blank"><h4>苏宁</h4></a>
+                  <small>Web Design</small>
+                  <div class="clearfix"></div>
+                  <i class="fa fa-search"></i> 
+                </div>
+                  <img src="img/jd.png" class="img-responsive" alt="Project Title" style="height:160px">
+                  <img src="img/jd1.png" class="img-responsive" alt="Project Title" style="height:160px"> 
+                </a>
+              </div>
+             </div>
           </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 branding app">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/xm.png" title="Project description" rel="prettyPhoto">
-              <div class="hover-text">
-                <a href="http://ts1027.github.io/XM/" target="_blank"><h4>小米</h4></a>
-                <small>Web Design</small>
-                <div class="clearfix"></div>
-                <i class="fa fa-search"></i> </div>
-              <img src="img/xm.png" class="img-responsive" alt="Project Title" style="height:160px">
-               <img src="img/xm1.png" class="img-responsive" alt="Project Title" style="height:160px"> </a> </div>
+          <!-- 第7个 -->
+          <div class="col-sm-6 col-md-3 col-lg-3 branding app">
+            <div class="portfolio-item">
+              <div class="hover-bg">
+               <a href="img/xm.png" title="Project description" rel="prettyPhoto">
+                <div class="hover-text">
+                  <a href="http://ts1027.github.io/XM/" target="_blank"><h4>小米</h4></a>
+                  <small>Web Design</small>
+                  <div class="clearfix"></div>
+                  <i class="fa fa-search"></i> </div>
+                  <img src="img/xm.png" class="img-responsive" alt="Project Title" style="height:160px">
+                  <img src="img/xm1.png" class="img-responsive" alt="Project Title" style="height:160px"> 
+                </a>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/1h.png" title="Project description" rel="prettyPhoto">
-              <div class="hover-text">
-                <a href="http://ts1027.github.io/yihao/" target="_blank"><h4>1号店</h4></a>
-                <small>Web Design</small>
-                <div class="clearfix"></div>
-                <i class="fa fa-search"></i> </div>
-              <img src="img/1h.png" class="img-responsive" alt="Project Title" style="height:160px">
-              <img src="img/1h1.png" class="img-responsive" alt="Project Title" style="height:160px"> </a> </div>
+          <!-- 第8个 -->
+          <div class="col-sm-6 col-md-3 col-lg-3 web">
+            <div class="portfolio-item">
+              <div class="hover-bg">
+               <a href="img/1h.png" title="Project description" rel="prettyPhoto">
+                <div class="hover-text">
+                  <a href="http://ts1027.github.io/yihao/" target="_blank"><h4>1号店</h4></a>
+                  <small>Web Design</small>
+                  <div class="clearfix"></div>
+                  <i class="fa fa-search"></i> </div>
+                  <img src="img/1h.png" class="img-responsive" alt="Project Title" style="height:160px">
+                  <img src="img/1h1.png" class="img-responsive" alt="Project Title" style="height:160px"> 
+                </a>
+              </div>
+            </div>
           </div>
-        </div>
+          <!-- 结束 -->
       </div>
     </div>
   </div>
-</div>
+
+
+
+
+
+
 <!-- Skills Section -->
 <div id="skills" class="text-center">
   <div class="container">
@@ -269,7 +300,7 @@
       <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="70"> <span class="percent">70</span> </span>
         <h4>bootstrap</h4>
       </div>
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="65"> <span class="percent">75</span> </span>
+      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="65"> <span class="percent">85</span> </span>
         <h4>ajax</h4>
       </div>
     </div>
@@ -282,156 +313,51 @@
       <h2>我的技能</h2>
       <hr>
     </div>
-    <div class="row">
-      <div class="col-lg-12">
-        <ul class="timeline">
-          <li>
-            <div class="timeline-image">
-              <h4>2015年<br>
-                - <br>
-                项目</h4>
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                 <a href="http://sxthdc.duapp.com/" target="_blank"><h4 style="color:#000">太化地产</h4></a>
-              </div>
-              <div class="timeline-body">
-                <p>前端布局的实现+后台利用phpcms内容管理系统和基于mysql数据库对项目进行动态的模块实现</p>
-              </div>
-            </div>
-          </li>
-          <li class="timeline-inverted">
-            <div class="timeline-image">
-              <h4>2015<br>
-                - <br>
-                Jan 2015 </h4>
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <a href="http://ts1027.github.io/game/" target="_blank"><h4 style="color:#000">打字游戏</h4></a>
-              </div>
-              <div class="timeline-body">
-                <p>一款基于电脑键盘的智力游戏。</p>
-              </div>
-            </div>
-          </li>
-          <!-- <li>
-            <div class="timeline-image">
-              <h4>Dec 2009 <br>
-                - <br>
-                May 2011 </h4>
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4>Creative Agency</h4>
-                <h4 class="subheading">UX Designer</h4>
-              </div>
-              <div class="timeline-body">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamcommodo nibh ante facilisis.</p>
-              </div>
-            </div>
-          </li> -->
-        </ul>
-      </div>
-    </div>
   </div>
   <div class="container">
-    <!-- <div class="section-title center">
-      <h2>Education</h2>
-      <hr>
-    </div> -->
     <div class="row">
       <div class="col-lg-12">
         <ul class="timeline">
-          
-          <!-- Education Section-->
-          
-         <!--  <li>
-            <div class="timeline-image">
-              <h4>2010 <br>
-                - <br>
-                2011 </h4>
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4>Design University</h4>
-                <h4 class="subheading">Master Degree of Design</h4>
+            <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <h4>2015-4 <br>
+                    - <br>
+                    2015-5
+                  </h4>
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                   <a href="http://sxthdc.duapp.com/" target="_blank"><h4 style="color:#000">太化地产</h4></a>
+                   <h4 class="subheading">div+css+js+php</h4>
+                 </div>
+                 <div class="timeline-body">
+                  <p>前端布局的实现+后台利用phpcms内容管理系统和基于mysql数据库对项目进行动态的模块实现</p>
+                </div>
+            </li>
+            <li>
+              <div class="timeline-image">
+                <h4>2015 <br>
+                  - <br>
+                </h4>
               </div>
-              <div class="timeline-body">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamcommodo nibh ante facilisis.</p>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <a href="http://ts1027.github.io/game/" target="_blank"><h4 style="color:#000">打字游戏</h4></a>
+                  <h4 class="subheading">运用面向对象的方法</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">一款基于电脑键盘的智力游戏。</p>
+                </div>
               </div>
-            </div>
-          </li>
-          <li class="timeline-inverted">
-            <div class="timeline-image">
-              <h4>2007 <br>
-                - <br>
-                2010 </h4>
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4>Design University</h4>
-                <h4 class="subheading">Bachelor Degree of Design</h4>
-              </div>
-              <div class="timeline-body">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamcommodo nibh ante facilisis.</p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="timeline-image">
-              <h4>2004 <br>
-                - <br>
-                2007 </h4>
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4>School Name</h4>
-                <h4 class="subheading">High School Degree</h4>
-              </div>
-              <div class="timeline-body">
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamcommodo nibh ante facilisis.</p>
-              </div>
-            </div>
-          </li> -->
+            </li>
         </ul>
       </div>
     </div>
   </div>
+  <!-- Achievements Section -->
 </div>
-<!-- Achievements Section -->
-<!-- <div id="achievements" class="section dark-bg">
-  <div class="container">
-    <div class="section-title center text-center">
-      <h2>Some stats</h2>
-      <hr>
-    </div>
-    <div class="row">
-      <div class="col-md-3 col-sm-3">
-        <div class="achievement-box"> <i class="fa fa-smile-o"></i> <span class="count">120</span>
-          <h4>Happy clients</h4>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-3">
-        <div class="achievement-box"> <i class="fa fa-code"></i> <span class="count">4,600</span>
-          <h4>Working hours</h4>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-3">
-        <div class="achievement-box"> <i class="fa fa-check-square-o"></i> <span class="count">340</span>
-          <h4>Projects completed</h4>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-3">
-        <div class="achievement-box"> <i class="fa fa-trophy"></i> <span class="count">23</span>
-          <h4>Awards won</h4>
-        </div>
-      </div>
-    </div>
-  </div>
-</div> -->
 
-<!-- Contact Section -->
+<!-- 联系方式 -->
 <div id="contact" class="text-center">
   <div class="container">
     <div class="section-title center">
@@ -443,71 +369,71 @@
       <div class="col-md-4"> <i class="fa fa-map-marker fa-2x"></i>
         <p>321 Awesome Street<br>
           New York, NY 17022</p>
+        </div>
+        <div class="col-md-4"> <i class="fa fa-envelope-o fa-2x"></i>
+          <p>443633568@qq.com</p>
+        </div>
+        <div class="col-md-4"> <i class="fa fa-phone fa-2x"></i>
+          <p> +18435145300</p>
+        </div>
+        <hr>
+        <div class="clearfix"></div>
       </div>
-      <div class="col-md-4"> <i class="fa fa-envelope-o fa-2x"></i>
-        <p>443633568@qq.com</p>
-      </div>
-      <div class="col-md-4"> <i class="fa fa-phone fa-2x"></i>
-        <p> +18435145300</p>
-      </div>
-      <hr>
-      <div class="clearfix"></div>
-    </div>
-    <div class="col-md-8 col-md-offset-2">
-      <h3>Leave me a message</h3>
-      <form name="sentMessage" id="contactForm" novalidate>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="form-group">
-              <input type="text" id="name" class="form-control" placeholder="Name:谭思" required="required">
-              <p class="help-block text-danger"></p>
+      <div class="col-md-8 col-md-offset-2">
+        <h3>Leave me a message</h3>
+        <form name="sentMessage" id="contactForm" novalidate>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <input type="text" id="name" class="form-control" placeholder="Name:谭思" required="required">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <input type="email" id="email" class="form-control" placeholder="Email：443633568@qq.com" required="required">
+                <p class="help-block text-danger"></p>
+              </div>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="form-group">
-              <input type="email" id="email" class="form-control" placeholder="Email：443633568@qq.com" required="required">
-              <p class="help-block text-danger"></p>
-            </div>
+          <div class="form-group">
+            <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+            <p class="help-block text-danger"></p>
           </div>
+          <div id="success"></div>
+          <button type="submit" class="btn btn-default">Send Message</button>
+        </form>
+        <div class="social">
+          <ul>
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+            <li><a href="#"><i class="fa fa-github"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
         </div>
-        <div class="form-group">
-          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
-          <p class="help-block text-danger"></p>
-        </div>
-        <div id="success"></div>
-        <button type="submit" class="btn btn-default">Send Message</button>
-      </form>
-      <div class="social">
-        <ul>
-          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-          <li><a href="#"><i class="fa fa-github"></i></a></li>
-          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-        </ul>
       </div>
     </div>
   </div>
-</div>
-<div id="footer">
-  <div class="container text-center">
-    <div class="fnav">
-      <p>Copyright &copy; 2015 </p>
+  <div id="footer">
+    <div class="container text-center">
+      <div class="fnav">
+        <p>Copyright &copy; 2015 </p>
+      </div>
     </div>
   </div>
-</div>
-<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
-<script type="text/javascript" src="js/bootstrap.js"></script> 
-<script type="text/javascript" src="js/SmoothScroll.js"></script> 
-<script type="text/javascript" src="js/easypiechart.js"></script> 
-<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
-<script type="text/javascript" src="js/jquery.isotope.js"></script> 
-<script type="text/javascript" src="js/jquery.counterup.js"></script> 
-<script type="text/javascript" src="js/waypoints.js"></script> 
-<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
-<script type="text/javascript" src="js/contact_me.js"></script> 
-<script type="text/javascript" src="js/owl.carousel.js"></script> 
-<script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
+  <script type="text/javascript" src="js/bootstrap.js"></script> 
+  <script type="text/javascript" src="js/SmoothScroll.js"></script> 
+  <script type="text/javascript" src="js/easypiechart.js"></script> 
+  <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
+  <script type="text/javascript" src="js/jquery.isotope.js"></script> 
+  <script type="text/javascript" src="js/jquery.counterup.js"></script> 
+  <script type="text/javascript" src="js/waypoints.js"></script> 
+  <script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
+  <script type="text/javascript" src="js/contact_me.js"></script> 
+  <script type="text/javascript" src="js/owl.carousel.js"></script> 
+  <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
